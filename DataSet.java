@@ -43,6 +43,6 @@ public class DataSet {
         }
     }
     public static void main(String[] args) throws IOException, InterruptedException {
-        DataSet temp = new DataSet("https://api.covidtracking.com/v1/us/current.json");
+        DataSet temp = new DataSet("https://api.covidtracking.com/v1/states/current.json");
     }
 }
